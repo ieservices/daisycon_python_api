@@ -7,6 +7,8 @@ from requests.auth import HTTPBasicAuth
 
 
 class DaisyconApi(object):
+    VERSION = 0.01
+
     def __init__(self, username, password, publisher_id):
         self._base_url = "https://services.daisycon.com"
 
